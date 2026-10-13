@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="./css/css.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -22,9 +22,9 @@
     </div>
 </header>
 <div class="container"><div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-<div class="col"> <div class="card shadow-sm"> <img src="../img/ananas.jpg" height="225" ><div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  </div> </div> </div>
-<div class="col"> <div class="card shadow-sm"> <img src="../img/icetea.jpg" height="225" ><div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  </div> </div> </div>
-<div class="col"> <div class="card shadow-sm"> <img src="../img/cheeseburger.jpg" height="225"><div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  </div> </div> </div>
+<div class="col"> <div class="card shadow-sm"> <img src="./img/ananas.jpg" height="225" ><div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  </div> </div> </div>
+<div class="col"> <div class="card shadow-sm"> <img src="./img/icetea.jpg" height="225" ><div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  </div> </div> </div>
+<div class="col"> <div class="card shadow-sm"> <img src="./img/cheeseburger.jpg" height="225"><div class="card-body"> <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  </div> </div> </div>
 </div></div>
 <br>
 <div class="container">
