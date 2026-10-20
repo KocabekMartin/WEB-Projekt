@@ -21,3 +21,4 @@ echo "<p>Pamet ram</p>"; var_dump($ram);
 echo "<p>Uloziste</p>"; var_dump($uloziste);
 echo "<p>Stav SSD: </p>"; var_dump($ssd);
 echo "<p>Operacni system</p>"; var_dump($os);
+echo "<p>To je vse</p>";
