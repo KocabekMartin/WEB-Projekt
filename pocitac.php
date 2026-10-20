@@ -1,8 +1,8 @@
 <?php
 $pocitac = "Herni PC"; //string
 $vyrobce = "Alienware"; //string
-$ram = "32"; //int
-$uloziste = "1.5"; //float
+$ram = 32; //int
+$uloziste = 1.5; //float
 $ssd = true; // bool
 $os = "Windows 11"; //string
 
@@ -16,3 +16,8 @@ echo "<p>Pocitac ma operacni system <strong>$os</strong></p>";
 
 echo "<h1>Datove typy</h1>";
 echo "<p>Pocitac</p>"; var_dump($pocitac);
+echo "<p>Znacka vyrobce</p>"; var_dump($vyrobce);
+echo "<p>Pamet ram</p>"; var_dump($ram);
+echo "<p>Uloziste</p>"; var_dump($uloziste);
+echo "<p>Stav SSD: </p>"; var_dump($ssd);
+echo "<p>Operacni system</p>"; var_dump($os);
