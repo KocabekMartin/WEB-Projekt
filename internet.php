@@ -39,7 +39,7 @@
                     <a class="nav-link text-dark" href="./internet.php">Internet</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="./pocitac.php">Pocitac.php </a>
+                    <a class="nav-link text-dark" href="ukoly/pocitac.php">Pocitac.php </a>
                 </li>
             </ul>
         </div>
