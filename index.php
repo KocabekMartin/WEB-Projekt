@@ -9,8 +9,42 @@
     <title>Kocábek Martin - Portfolio</title>
 </head>
 <body>
-<div class="container"> <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 border-bottom"> <div class="col-md-3 mb-2 mb-md-0"> <i class="bi bi-person-circle"></i> </div> <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> <li><a href="#" class="nav-link px-2 link-secondary">Domů</a></li> <li><a href="#" class="nav-link px-2">aa</a></li> <li><a href="#" class="nav-link px-2">bb</a></li> <li><a href="#" class="nav-link px-2">cc</a></li> <li><a href="#" class="nav-link px-2">dd</a></li> </ul> <div class="col-md-3 text-end"> <button type="button" class="btn btn-primary">Admin</button> </div> </header> </div>
-<header class="py-3">
+<header class="bg-white shadow-sm">
+    <!-- navbar-expand-md zajistí sendvič pouze na mobilu (<768px), od md výše je menu rozbalené -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white container py-3">
+        <!-- Logo / Brand -->
+        <a href="/" class="navbar-brand d-flex align-items-center text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use href="#bootstrap"></use></svg>
+            <span class="fs-4 fw-bold">Kocábek Martin</span>
+        </a>
+
+        <!-- Hamburger tlačítko (zobrazí se pouze na mobilech) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Obsah navigace -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 gap-md-1">
+                <li class="nav-item">
+                    <a class="nav-link active fw-semibold" aria-current="page" href="./index.php">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./zpravy.php">Zprávy</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link text-dark" href="./emaily.php">Emaily</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./internet.php">Internet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="./pocitac.php">Pocitac.php </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><header class="py-3">
     <div class="container px-lg-5">
         <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
             <div class="m-4 m-lg-5">
@@ -28,11 +62,11 @@
 </div></div>
 <br>
 <div class="container">
-<div class="row g-4 py-5 row-cols-1 row-cols-lg-3 " id="A1"> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <i class="bi bi-chat-fill p-1 m-1"></i> </div> <h3 class="fs-2 text-body-emphasis">Zprávy</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque, lorem sit amet lobortis scelerisque, sem odio rutrum eros, sed bibendum lacus enim in erat.</p> <a href="./zpravy.html" class="icon-link">
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3 " id="A1"> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <i class="bi bi-chat-fill p-1 m-1"></i> </div> <h3 class="fs-2 text-body-emphasis">Zprávy</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque, lorem sit amet lobortis scelerisque, sem odio rutrum eros, sed bibendum lacus enim in erat.</p> <a href="zpravy.php" class="icon-link">
     Prohlédnout
-    <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <i class="bi bi-envelope-fill m-1 py-1"></i> </div> <h3 class="fs-2 text-body-emphasis">Emaily</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque, lorem sit amet lobortis scelerisque, sem odio rutrum eros, sed bibendum lacus enim in erat.</p> <a href="./emaily.html" class="icon-link">
+    <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <i class="bi bi-envelope-fill m-1 py-1"></i> </div> <h3 class="fs-2 text-body-emphasis">Emaily</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque, lorem sit amet lobortis scelerisque, sem odio rutrum eros, sed bibendum lacus enim in erat.</p> <a href="emaily.php" class="icon-link">
     Podívat
-    <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <i class="bi bi-wifi m-1 py-1"></i> </div> <h3 class="fs-2 text-body-emphasis">Internet</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque, lorem sit amet lobortis scelerisque, sem odio rutrum eros, sed bibendum lacus enim in erat.</p> <a href="./internet.html" class="icon-link">
+    <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <i class="bi bi-wifi m-1 py-1"></i> </div> <h3 class="fs-2 text-body-emphasis">Internet</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque, lorem sit amet lobortis scelerisque, sem odio rutrum eros, sed bibendum lacus enim in erat.</p> <a href="internet.php" class="icon-link">
     Rozkliknout
     <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> </div> </div>
 <div class="container px-lg-5">

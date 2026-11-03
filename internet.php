@@ -15,7 +15,7 @@
         <!-- Logo / Brand -->
         <a href="/" class="navbar-brand d-flex align-items-center text-dark text-decoration-none">
             <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use href="#bootstrap"></use></svg>
-            <span class="fs-4 fw-bold">Simple header</span>
+            <span class="fs-4 fw-bold">Kocábek Martin</span>
         </a>
 
         <!-- Hamburger tlačítko (zobrazí se pouze na mobilech) -->
@@ -27,19 +27,19 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0 gap-md-1">
                 <li class="nav-item">
-                    <a class="nav-link active fw-semibold" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link active fw-semibold" aria-current="page" href="./index.php">Domů</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="../pages/features.html">Features</a>
+                    <a class="nav-link text-dark" href="./zpravy.php">Zprávy</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Pricing</a>
+                    <a class="nav-link text-dark" href="./emaily.php">Emaily</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">FAQs</a>
+                    <a class="nav-link text-dark" href="./internet.php">Internet</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">About</a>
+                    <a class="nav-link text-dark" href="./pocitac.php">Pocitac.php </a>
                 </li>
             </ul>
         </div>
