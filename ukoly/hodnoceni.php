@@ -1,8 +1,8 @@
 <?php
 $studentName = "Martin Kocabek";
-$test1 = 90;
-$test2 = 90;
-$test3 = 91;
+$test1 = 101;
+$test2 = 101;
+$test3 = 101;
 $body = $test1 + $test2 + $test3;
 $prumer = $body / 3;
 $uspesnost = $body / 3;
