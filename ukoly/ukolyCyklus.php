@@ -3,7 +3,7 @@ echo "<h1>Ukol 1</h1>";
 $max = 8;
 for ($i = 1 ; $i <= $max; ++$i) {
     echo "<h2>$i</h2>";
-    "<br>";
+
 }
 echo "<br>";
 echo "<h1>Ukol 2</h1>";
