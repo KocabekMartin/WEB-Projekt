@@ -13,8 +13,7 @@ echo "</table>";
 */
 echo "<h1>Ukol A</h1>";
 $movies = ["Shrek", "Avengers : Endgame", "Harry Potter a kamen mudrcu", "Obcansky Prukaz"];
-echo "<h2>$movies[0]</h2>";
-echo "<h2>$movies[3]</h2>";
+echo "<h2>$movies[0]<br>$movies[3]</h2>";
 
 $movies[] = "Garfield";
 $pocet = count($movies);
@@ -39,9 +38,7 @@ foreach ($grades as $grade) {
 }
 $prumer = $sum / $count;
 round($prumer, 2);
-echo "<h2>Prumer je $prumer</h2>";
-echo "<h2>Pocet znamek je $count</h2>";
-echo "<h2>Sectene znamky: $sum</h2>";
+echo "<h2>Prumer je $prumer <br> Pocet znamek je $count <br> Sectene znamky: $sum</h2>";
 echo "<br>";
 
 echo "<h1>Ukol D</h1>";
@@ -54,3 +51,47 @@ foreach ($temperatures as $temperature) {
     }
 }
 echo "<h2>Pocet teplot alespon s 23 °C je $pocet</h2>";
+echo "<br>";
+
+echo "<h1>Ukol E</h1>";
+$product = [
+    "Nazev" => "Kostka",
+    "Kategorie" => "Zabava",
+    "Cena" => "2000",
+    "Skladem" => "Ano"
+];
+echo "<table border='1'>";
+foreach ($product as $klic => $value) {
+    echo "<tr><th>$klic</th><td>$value</td></tr>";
+}
+echo "</table>";
+echo "<br>";
+
+echo "<h1>Ukol F</h1>";
+$coupons = ["LETO20", "STUDENT15", "VIP50"];
+$enteredCoupon = "VIP50";
+if (in_array($enteredCoupon, $coupons)) {
+    echo "<h2>Platny Kupon</h2>";
+}
+else {
+    echo "<h2>Neplatny Kupon</h2>";
+}
+echo "<br>";
+
+echo "<h1>Ukol G</h1>";
+//Najdete chybu v kodu
+//Spatny kod
+/*
+$points = [12, 18, 25, 30];
+
+echo $points;
+
+foreach ($points as $point){
+   echo "Body: $points<br>";
+}
+
+echo "Posledni hodnota: " . points[4];
+*/
+
+//Opraveny kod
+echo "<h2>Chyby v kodu:<br> 1.Points[4] ma byt 3 protoze se cisluje od 0 <br> 2.foreach na point ale pouzije points <br> 3.Echo points nic neudela protoze je to pole</h2>";
